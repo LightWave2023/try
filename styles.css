@@ -1,0 +1,48 @@
+body {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  justify-content: center;  
+  height: 100vh;  
+  margin: 0;  
+  font-family: Arial, sans-serif;  
+}  
+  
+h1 {  
+  font-size: 24px; /* 根据需要调整字体大小 */  
+  margin: 0 0 20px 0; /* 上下外边距 */  
+}  
+  
+.boxed-h2 {  
+  display: inline-block; /* 使h2内容可以显示在一个方框内 */  
+  background-color: lightgrey;
+  padding: 10px; /* 方框内边距 */  
+  border: 1px solid #000; /* 方框边框 */  
+  font-size: 30px; /* 确保h2字体大小大于h1 */  
+  margin: 0 0 20px 0; /* 上下外边距 */  
+}  
+  
+.image-container {  
+  text-align: center; /* 水平居中容器内的内容 */  
+}  
+  
+.image-container img {  
+  display: block; /* 消除图片底部的默认间隙 */  
+  width: 500px; /* 限制图片最大宽度为容器宽度 */  
+  height: auto; /* 保持图片比例 */  
+}  
+  
+.image-container button {  
+  margin-top: 20px; /* 与图片之间添加间距 */  
+  padding: 10px 20px; /* 内边距 */  
+  font-size: 16px; /* 字体大小 */  
+  color: white; /* 文本颜色 */  
+  background-color: lightblue; /* 背景颜色 */  
+  border: none; /* 无边框 */  
+  border-radius: 5px; /* 圆角 */  
+  cursor: pointer; /* 鼠标悬停时变为手形 */  
+}  
+  
+.image-container button:hover {  
+  background-color: #45a049; /* 鼠标悬停时的背景颜色 */  
+}
